@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
 
                 // Upon button push, create random number for 8ball images.
                 Random randomNumberGenerator = new Random();
-                int number = randomNumberGenerator.nextInt(6);
+                int number = randomNumberGenerator.nextInt(5);
 
                 ballDisplay.setImageResource(ballArray[number]);
 
